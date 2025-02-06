@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div id="particles-js" class="particle-bg"></div> <!-- Particle Effect -->
+        <div class="header-content">
+            
+            <!-- Left Section: Animation -->
+            <div class="left-header">
+                <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_3rwasyjy.json" 
+                    background="transparent" speed="1" loop autoplay class="animated-graphic">
+                </lottie-player>
+            </div>
+    
+            <!-- Right Section: Introduction -->
+            <div class="right-header">
+                <h1 class="name">
+                    Hi there,
+                    I'm <span>Stacy Dawson.</span>
+                   
+                </h1>
+                <h1 class="name">
+
+                    A Software Engineer.
+                </h1>
+                <p>
+                    "I'm a aspiring Software Engineer passionate about building scalable, secure, and efficient cloud solutions. 
+                    From architecting seamless infrastructures to automating deployments, I thrive on optimizing the cloud to deliver efficiency and innovation."
+                </p>
+                <div class="btn-con">
+                    <a href="./src/img/hero.png" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+    
+        </div>
+    </header>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<!-- Load Particles.js -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    particlesJS("particles-js", {
+        particles: {
+            number: { value: 80 },
+            size: { value: 3 },
+            move: { speed: 2 }
+        }
+    });
+</script>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text"></span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>About me</h4>
+                    <p>
+                        I’m passionate about applying hands-on learning to real-world projects, 
+                        such as design, develop, deploy applications, automating infrastructure with Terraform, and building CI/CD pipelines.
+                        <br /> <br /> 
+                        
+                    </p>
+                    <div class="btn-con">
+                        <a href="#" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">30+</p>
+                            <p class="small-text">Projects <br /> Completed</p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">5+</p>
+                            <p class="small-text">Freelance Clients<br /> Helped in Cloud Migration & Optimization</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">Software Development</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">APIs & Microservices</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">DevOps & CI/CD </p>
+                        <div class="progress-con">
+                            <p class="prog-text">85%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Cloud Platforms & Architecture </p>
+                        <div class="progress-con">
+                            <p class="prog-text">87%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Cloud Security & Networking</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="react"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Infrastructure as Code </p>
+                        <div class="progress-con">
+                            <p class="prog-text">78%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 - 2024</p>
+                    <h5>Software Development Intern<span>- AWS </span></h5>
+                    <p>
+                        Designed and Developed some stunning fullstack projects.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022 - 2023</p>
+                    <h5>Cloud Trainee<span>- AWS Apprencticeship</span></h5>
+                    <p>
+                        Project based experience in the AWS Cloud and DevOps domain.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2018 - 2022</p>
+                    <h5>Computer Science Degree <span> - Chandigarh University</span></h5>   
+                    <p>
+                        Focused on learning Computing concepts, DSA, Programming, Software development, and DevOps practices.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2017 - present</p>
+                    <h5>Masters in Computer Science<span>- IIM Bangalore</span></h5>
+                    <p>
+                        Learned Advanced concepts of the Programming and Development.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text"></span></h2>
+            </div>
+            <h2 class="port-text">
+                <B><i>"Take a look at some of my recent projects, where creativity meets functionality! 
+                    Each piece reflects my passion for crafting seamless user experiences, blending innovative design with robust development. 
+                    Explore my work and see how I bring ideas to life!"</i></B>
+            </h2>
+            <div class="portfolios">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="src/img/port1.png" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4>Project Title</h4>
+                        <p>A brief description of the project goes here.</p>
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="src/img/port2.png" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4>Project Title</h4>
+                        <p>A brief description of the project goes here.</p>
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="src/img/port3.png" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4>Project Title</h4>
+                        <p>A brief description of the project goes here.</p>
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="src/img/port4.png" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4>Project Title</h4>
+                        <p>A brief description of the project goes here.</p>
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="src/img/port5.png" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4>Project Title</h4>
+                        <p>A brief description of the project goes here.</p>
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="src/img/port7.png" alt="">
+                    </div>
+                    <div class="portfolio-text">
+                        <h4>Project Title</h4>
+                        <p>A brief description of the project goes here.</p>
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- END .portfolios -->
+        </section>
+        
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Blogs</span><span class="bg-text"></span></h2>
+                </div>
+                <h2 class="port-text">
+                    <B><i>"Explore my blog for insights, tutorials, and tips on web development, cloud computing, and more. 
+                        Dive in and discover something new!"</i></B>
+                </h2>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="src/img/port2.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Building a Full-Stack Web App: Frontend + Cloud Backend
+                            </h4>
+                            <p>
+                               <!--You can write anything you need--> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="src/img/blog2.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                 Staying updated with the Latest Cloud & DevOps Trends
+                            </h4>
+                            <p>
+                                <!--You can write anything you need-->
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="blog">
+                        <img src="src/img/port1.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Best Practices for Securing Your Cloud Infrastructure
+                            </h4>
+                            <p>
+                               <!--You can write anything you need--> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="src/img/Blog1.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Getting Started with AWS: A Beginner’s Guide
+                            </h4>
+                            <p>
+                                <!--You can write anything you need-->
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="src/img/blog2.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                CI/CD with GitHub Actions & AWS: Automate Your Deployments
+                            </h4>
+                            <p>
+                                <!--You can write anything you need-->
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="src/img/blog3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Docker vs Kubernetes: What’s the Difference?
+                            </h4>
+                            <p>
+                                <!--You can write anything you need-->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text"></span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Let's Connect</h4>
+                        <p>
+                            Have a project idea or just want to chat about cloud technologies? 
+                            Feel free to reach out. I'm always excited to collaborate and learn together!
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>: Bangalore, India</p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>: techie.intellipaat@gmail.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>: Chandigarh University</p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Phone</span>
+                                </div>
+                                <p>: +91 84958 58745</p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>: English, Spanish, Hindi</p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="Your Name">
+                                <input type="email" required placeholder="Your Email">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="Enter Subject">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="message" id="message" cols="30" rows="5" required placeholder="Your Message..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" class="main-btn">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="src/app.js"></script>
+</body>
+</html>
