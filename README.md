@@ -12,3 +12,6 @@ organize the files as follows:
   - .github/workflows/deploy.yml
 - README.md
 
+# Architecture Diagram
+
+![Portfolio cicd drawio](https://github.com/user-attachments/assets/ee133bd0-12d2-424d-8048-0c157177d384)
