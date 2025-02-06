@@ -14,4 +14,4 @@ organize the files as follows:
 
 # Architecture Diagram
 
-![Portfolio cicd drawio](https://github.com/user-attachments/assets/ee133bd0-12d2-424d-8048-0c157177d384)
+![Portfolio CIcd drawio (1)](https://github.com/user-attachments/assets/18cd6440-8430-4749-987d-1a47bffb4ac3)
